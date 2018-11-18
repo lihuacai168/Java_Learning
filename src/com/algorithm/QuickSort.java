@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class QuickSort {
     public static void quickSort(int[] myArray, int begin, int last){
-//        递归出口
+//        递归出口,当begin=last时,也就是只有两个元素.
         if (begin >= last){
             return ;
         }
