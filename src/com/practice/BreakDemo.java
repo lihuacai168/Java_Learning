@@ -6,7 +6,7 @@ public class BreakDemo {
     public static void main(String[] args) {
         //统计个人贡献值,为负数的时候就退出,并统计
 
-        int exp = 0;//个人贡献值
+        int exp = 0;//个人贡献值,可以不赋值
 
         int sum = 0;//个人总贡献度
 
